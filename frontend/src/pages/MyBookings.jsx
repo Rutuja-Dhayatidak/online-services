@@ -7,7 +7,7 @@ export default function MyBookings() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API = "http://localhost:3000/api/bookings";
+const API = "https://your-backend-name.onrender.com/api/bookings";
 
   // fetch bookings
   const fetchBookings = async () => {
